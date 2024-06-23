@@ -1,0 +1,19 @@
+{ 
+  "pterodactyl": {
+    "url": "https://test.com",
+    "key": "ptla_x",
+    "node": {
+      "locationId": 1,
+      "memory": 8192,
+      "disk": 40960
+    }
+  },
+  "ssh_auth": {
+    "_note": "Options: password, sshkey",
+    "user": "root",
+    "port": 22,
+    "type": "password",
+    "password": "NodePassword",
+    "sshkey_path": "./id_rsa"
+  }
+}
